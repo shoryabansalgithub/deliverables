@@ -100,9 +100,9 @@ export default function HeavyMetalDetoxPage() {
                 Most parasite cleanses don't go far enough. After the parasites are gone, <strong>heavy metals like mercury, aluminum, and lead</strong> remain in your organs, joints, and brain.
               </p>
 
-              <p className="text-[16px] font-bold tracking-tight whitespace-nowrap text-gray-800 leading-relaxed">
-                "If you're only removing parasites, you're only solving half the problem."
-              </p>
+              <p className="text-[16px] font-bold tracking-tight whitespace-normal md:whitespace-nowrap text-gray-800 leading-relaxed">
+  "If you're only removing parasites, you're only solving half the problem."
+</p>
 
               <p className="text-[16px] text-gray-800">Heavy metals can:</p>
 
