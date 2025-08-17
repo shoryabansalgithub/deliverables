@@ -107,35 +107,32 @@ export default function TudcaLiverSupportPage() {
                 </div>
               </div>
 
-              {/* CTA Button */}
-              <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-4 md:px-6 rounded-md text-base md:text-lg uppercase transition-all duration-300 mb-4">
-                YES! CONFIRM THIS AMAZING UPGRADE
-              </button>
-            </div>
+               {/* CTA Button */}
+          <div className="flex justify-start mb-6">
+            <button className="w-full max-w-md bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded text-lg uppercase shadow-md transition-all duration-300">
+              YES! CONFIRM THIS AMAZING UPGRADE
+            </button>
           </div>
-        </div>
 
-        {/* Decline Link */}
-        <div className="flex flex-col lg:flex-row">
-          <div className="hidden lg:block lg:flex-1"></div>
-          <div className="w-full lg:w-1/2 px-0 md:px-4 lg:px-8 text-center mb-6 md:mb-8">
-            <button className="text-blue-500 hover:text-blue-700 font-bold text-sm md:text-sm leading-relaxed max-w-lg mx-auto block">
-              No thanks, I don't want to upgrade my order. When I run out I'll just pay the full price of $89 
+          {/* Decline Link - aligned with CTA (left-aligned, same column) */}
+          <div className="mb-4 md:mb-6 text-left">
+            <button className="text-blue-500 hover:text-blue-700 font-bold text-sm md:text-sm leading-relaxed inline-block max-w-md">
+              No thanks, I don't want to upgrade my order. When I run out I'll just pay the full price of $89
               per bottle on my next order.
             </button>
           </div>
-        </div>
 
-        {/* Testimonial */}
-        <div className="flex flex-col lg:flex-row">
-          <div className="hidden lg:block lg:flex-1"></div>
-          <div className="w-full lg:w-1/2 px-0 md:px-4 lg:px-8">
-            <div className="bg-white border border-gray-300 rounded-lg p-4 md:p-6">
+          {/* Testimonial - aligned left under decline link */}
+          <div className="mb-10 text-left">
+            <div className="bg-gray-50 border border-gray-200 rounded-md p-4 md:p-5 shadow-sm max-w-[420px]">
               <div className="flex items-start">
-                <span className="text-xl md:text-2xl text-green-500 mr-3 flex-shrink-0">💚</span>
+                <span className="text-xl md:text-2xl text-green-500 mr-3 flex-shrink-0">
+                  💚
+                </span>
                 <div>
-                  <p className="text-sm md:text-base text-gray-700 italic mb-2 md:mb-3 leading-relaxed">
-                    "I added TUDCA last minute and it made my detox SO much easier. No brain fog, no nausea!"
+                  <p className="text-sm md:text-base text-gray-700 italic mb-2 leading-relaxed">
+                    "I added TUDCA last minute and it made my detox SO much
+                    easier. No brain fog, no nausea!"
                   </p>
                   <p className="text-xs md:text-sm text-gray-800 font-bold">
                     – Verified Customer
@@ -144,8 +141,11 @@ export default function TudcaLiverSupportPage() {
               </div>
             </div>
           </div>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
   );
-}
+} 
